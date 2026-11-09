@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kethuda"
+version = "1.0.0"
+authors = [
+  { name="KETHUDA Geliştirici Ekibi", email="info@kethuda.local" },
+]
+description = "Ubuntu/Linux Modüler Bilgisayar ve Sistem Yönetim Aracı"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "psutil>=5.8.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.scripts]
+kethuda = "kethuda.main:main"

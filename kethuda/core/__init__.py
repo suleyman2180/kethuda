@@ -1,0 +1,1 @@
+"""KETHUDA Çekirdek Bileşenleri"""
